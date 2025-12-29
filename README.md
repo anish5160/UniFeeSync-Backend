@@ -1,6 +1,6 @@
 # UniFeeSync – University Fee Management Backend
 
-A backend service built with Django REST Framework to manage student fee data, authentication, password resets, and CSV-based bulk uploads.
+Developed a backend service for a restricted-access hostel fee system using Django REST Framework. Implemented JWT-based authentication with tiered user roles, where privileged users manage onboarding through CSV uploads and regular users access their own records securely. Designed APIs around structured data validation and controlled access, keeping the platform usage limited to authorized institutional members.
 
 ## Requirements
 - Python 3.10+
